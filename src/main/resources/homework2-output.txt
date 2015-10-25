@@ -1,0 +1,92 @@
+Chad David Cover
+CS472: Homework 2
+October 29, 2015
+
+At that byte there is the value 05 (Cache Miss).
+At that byte there is the value 06 (Cache Hit).
+At that byte there is the value 07 (Cache Hit).
+At that byte there is the value 4C (Cache Miss).
+At that byte there is the value 4D (Cache Hit).
+At that byte there is the value 4E (Cache Hit).
+At that byte there is the value 4F (Cache Hit).
+At that byte there is the value 50 (Cache Miss).
+At that byte there is the value 51 (Cache Hit).
+At that byte there is the value A6 (Cache Miss).
+At that byte there is the value C3 (Cache Miss).
+    Slot   Valid      Tag          Data
+      0      1        0           00   01   02   03   04   05   06   07   08   09   0A   0B   0C   0D   0E   0F   
+      1      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      2      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      3      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      4      1        1           40   41   42   43   44   45   46   47   48   49   4A   4B   4C   4D   4E   4F   
+      5      1        1           50   51   52   53   54   55   56   57   58   59   5A   5B   5C   5D   5E   5F   
+      6      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      7      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      8      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      9      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      A      1        3           A0   A1   A2   A3   A4   A5   A6   A7   A8   A9   AA   AB   AC   AD   AE   AF   
+      B      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      C      1        4           C0   C1   C2   C3   C4   C5   C6   C7   C8   C9   CA   CB   CC   CD   CE   CF   
+      D      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      E      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      F      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+Value 99 has been written to address 0x00014C. (Cache Hit)
+Value  7 has been written to address 0x00063B. (Cache Miss)
+At that byte there is the value 82 (Cache Miss).
+    Slot   Valid      Tag          Data
+      0      1        0           00   01   02   03   04   05   06   07   08   09   0A   0B   0C   0D   0E   0F   
+      1      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      2      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      3      0        0           00   00   00   00   00   00   00   00   00   00   00   07   00   00   00   00   
+      4      1        1           40   41   42   43   44   45   46   47   48   49   4A   4B   99   4D   4E   4F   
+      5      1        1           50   51   52   53   54   55   56   57   58   59   5A   5B   5C   5D   5E   5F   
+      6      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      7      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      8      1        5           80   81   82   83   84   85   86   87   88   89   8A   8B   8C   8D   8E   8F   
+      9      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      A      1        3           A0   A1   A2   A3   A4   A5   A6   A7   A8   A9   AA   AB   AC   AD   AE   AF   
+      B      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      C      1        4           C0   C1   C2   C3   C4   C5   C6   C7   C8   C9   CA   CB   CC   CD   CE   CF   
+      D      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      E      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      F      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+At that byte there is the value 48 (Cache Miss).
+At that byte there is the value 3F (Cache Miss).
+    Slot   Valid      Tag          Data
+      0      1        0           00   01   02   03   04   05   06   07   08   09   0A   0B   0C   0D   0E   0F   
+      1      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      2      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      3      1        0           30   31   32   33   34   35   36   37   38   39   3A   3B   3C   3D   3E   3F   
+      4      1        3           40   41   42   43   44   45   46   47   48   49   4A   4B   4C   4D   4E   4F   
+      5      1        1           50   51   52   53   54   55   56   57   58   59   5A   5B   5C   5D   5E   5F   
+      6      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      7      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      8      1        5           80   81   82   83   84   85   86   87   88   89   8A   8B   8C   8D   8E   8F   
+      9      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      A      1        3           A0   A1   A2   A3   A4   A5   A6   A7   A8   A9   AA   AB   AC   AD   AE   AF   
+      B      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      C      1        4           C0   C1   C2   C3   C4   C5   C6   C7   C8   C9   CA   CB   CC   CD   CE   CF   
+      D      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      E      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      F      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+At that byte there is the value 4B (Cache Miss).
+At that byte there is the value 99 (Cache Hit).
+At that byte there is the value 3F (Cache Miss).
+At that byte there is the value 83 (Cache Miss).
+    Slot   Valid      Tag          Data
+      0      1        0           00   01   02   03   04   05   06   07   08   09   0A   0B   0C   0D   0E   0F   
+      1      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      2      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      3      1        6           30   31   32   33   34   35   36   37   38   39   3A   07   3C   3D   3E   3F   
+      4      1        1           40   41   42   43   44   45   46   47   48   49   4A   4B   99   4D   4E   4F   
+      5      1        1           50   51   52   53   54   55   56   57   58   59   5A   5B   5C   5D   5E   5F   
+      6      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      7      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      8      1        0           80   81   82   83   84   85   86   87   88   89   8A   8B   8C   8D   8E   8F   
+      9      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      A      1        3           A0   A1   A2   A3   A4   A5   A6   A7   A8   A9   AA   AB   AC   AD   AE   AF   
+      B      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      C      1        4           C0   C1   C2   C3   C4   C5   C6   C7   C8   C9   CA   CB   CC   CD   CE   CF   
+      D      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      E      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
+      F      0        0           00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   00   
